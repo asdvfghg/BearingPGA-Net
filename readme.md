@@ -113,9 +113,11 @@ memory_initialization_radix=2;
 memory_initialization_vector=
 ```
 5. Due to the entire FPGA project is too large, we only provide our Verilog code.  The entire process, including register transfer level (RTL) design, simulation and verification, synthesis, implementation (place and route, P\&R), editing timing constraints, generation of bitstream files, and the FPGA configuration, has to be done in vivado. **Notably, you need to change the bit-width in Verilog for different model.**
-- FFT module: ```shiftFunction.v```line5 - SHIFT_BIT=*decimal bit-width*
-- Convolution layer: ```convUnit.v```line21 - RIGHT_SHIFT_BIT(*decimal bit-width-1*)
-- FC layer:```layer.v```line8 - RIGHT_SHIFT_BIT=*decimal bit-width*
+
+- FFT module:```fftOut.v``` - INT_BIT = *Integer bit-width*
+- Convolution layer: ```convUnit.v``` - RIGHT SHIFT BIT = *Integer bit-width*
+- Shift module: ```shiftFunction.v``` - SHIFT_BIT = *Integer bit-width*
+- FC layer: ```layer. v``` - RIGHT SHIFT BIT = *Integer bit-width*
 ## Contact
 If you have any questions , please contact the following email address:
 
