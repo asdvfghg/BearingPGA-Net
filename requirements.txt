@@ -1,0 +1,7 @@
+torch~=2.0.1+cu118
+numpy~=1.23.5
+fvcore~=0.1.5.post20221221
+matplotlib~=3.7.0
+scipy~=1.10.0
+scikit-learn~=1.2.1
+wandb~=0.15.4
