@@ -1,6 +1,6 @@
 # BearingPGA-Net: A Lightweight and Deployable Bearing Fault Diagnosis Network via Decoupled Knowledge Distillation and FPGA Acceleration
 ## Overview
-This is the repository of our submission for IEEE Transactions on Instrumentation and Measurement   "BearingPGA-Net: A Lightweight and Deployable Bearing Fault Diagnosis Network via Decoupled Knowledge Distillation and FPGA Acceleration". Our preprint version will be coming soon.
+This is the repository of our submission for IEEE Transactions on Instrumentation and Measurement   "BearingPGA-Net: A Lightweight and Deployable Bearing Fault Diagnosis Network via Decoupled Knowledge Distillation and FPGA Acceleration". Here is our preprint [paper](https://arxiv.org/pdf/2307.16363.pdf).
 In this work,
 
 * We build BearingPGA-Net, a lightweight neural network tailored for bearing fault diagnosis. This network is characterized by a single convolutional layer and is enhanced using decoupled knowledge distillation.
@@ -15,17 +15,19 @@ In this work,
 ![BearingPGA-Net](https://raw.githubusercontent.com/asdvfghg/image/master/小书匠/1690447137832.png)
 
 
-[^_^]:
-	## Citing
-	If you find this repo useful for your research, please consider citing it:
-	```
-	@article{liao2022attention,
-	  title={Attention-embedded Quadratic Network (Qttention) for Effective and Interpretable Bearing Fault Diagnosis},
-	  author={Liao, Jing-Xiao and Dong, Hang-Cheng and Sun, Zhi-Qi and Sun, Jinwei and Zhang, Shiping and Fan, Feng-Lei},
-	  journal={arXiv preprint arXiv:2206.00390},
-	  year={2022}
-	}
-	```
+
+## Citing
+If you find this repo useful for your research, please consider citing it:
+```
+@misc{liao2023bearingpganet,
+      title={BearingPGA-Net: A Lightweight and Deployable Bearing Fault Diagnosis Network via Decoupled Knowledge Distillation and FPGA Acceleration}, 
+      author={Jing-Xiao Liao and Sheng-Lai Wei and Chen-Long Xie and Tieyong Zeng and Jinwei Sun and Shiping Zhang and Xiaoge Zhang and Feng-Lei Fan},
+      year={2023},
+      eprint={2307.16363},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
 
 
 
@@ -117,7 +119,7 @@ memory_initialization_vector=
 - FFT module:```fftOut.v``` - INT_BIT = *Integer bit-width*
 - Convolution layer: ```convUnit.v``` - RIGHT SHIFT BIT = *Integer bit-width*
 - Shift module: ```shiftFunction.v``` - SHIFT_BIT = *Integer bit-width*
-- FC layer: ```layer. v``` - RIGHT SHIFT BIT = *Integer bit-width*
+- FC layer: ```layer.v``` - RIGHT SHIFT BIT = *Integer bit-width*
 ## Contact
 If you have any questions , please contact the following email address:
 
