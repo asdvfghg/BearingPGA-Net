@@ -1,6 +1,6 @@
 # BearingPGA-Net: A Lightweight and Deployable Bearing Fault Diagnosis Network via Decoupled Knowledge Distillation and FPGA Acceleration
 ## Overview
-This is the official repository of the paper "BearingPGA-Net: A Lightweight and Deployable Bearing Fault Diagnosis Network via Decoupled Knowledge Distillation and FPGA Acceleration" in IEEE Transactions on Instrumentation and Measurement (in press). Here is our preprint [paper](https://arxiv.org/pdf/2307.16363.pdf).
+This is the official repository of the paper "BearingPGA-Net: A Lightweight and Deployable Bearing Fault Diagnosis Network via Decoupled Knowledge Distillation and FPGA Acceleration" in IEEE Transactions on Instrumentation and Measurement (Early Access). Here is our [paper](https://arxiv.org/pdf/2307.16363.pdf).
 In this work,
 
 * We build BearingPGA-Net, a lightweight neural network tailored for bearing fault diagnosis. This network is characterized by a single convolutional layer and is enhanced using decoupled knowledge distillation.
@@ -19,14 +19,15 @@ In this work,
 ## Citing
 If you find this repo useful for your research, please consider citing it:
 ```
-@misc{liao2023bearingpganet,
-      title={BearingPGA-Net: A Lightweight and Deployable Bearing Fault Diagnosis Network via Decoupled Knowledge Distillation and FPGA Acceleration}, 
-      author={Jing-Xiao Liao and Sheng-Lai Wei and Chen-Long Xie and Tieyong Zeng and Jinwei Sun and Shiping Zhang and Xiaoge Zhang and Feng-Lei Fan},
-      year={2023},
-      eprint={2307.16363},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
+@ARTICLE{10373183,
+  author={Liao, Jing-Xiao and Wei, Sheng-Lai and Xie, Chen-Long and Zeng, Tieyong and Sun, Jinwei and Zhang, Shiping and Zhang, Xiaoge and Fan, Feng-Lei},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={BearingPGA-Net: A Lightweight and Deployable Bearing Fault Diagnosis Network via Decoupled Knowledge Distillation and FPGA Acceleration}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TIM.2023.3346517}}
 ```
 
 
