@@ -1,6 +1,6 @@
 # BearingPGA-Net: A Lightweight and Deployable Bearing Fault Diagnosis Network via Decoupled Knowledge Distillation and FPGA Acceleration
 ## Overview
-This is the official repository of the paper "BearingPGA-Net: A Lightweight and Deployable Bearing Fault Diagnosis Network via Decoupled Knowledge Distillation and FPGA Acceleration" in IEEE Transactions on Instrumentation and Measurement (Early Access). Here is our [paper](https://arxiv.org/pdf/2307.16363.pdf).
+This is the official repository of the paper "BearingPGA-Net: A Lightweight and Deployable Bearing Fault Diagnosis Network via Decoupled Knowledge Distillation and FPGA Acceleration" in IEEE Transactions on Instrumentation and Measurement (Early Access) [paper](https://ieeexplore.ieee.org/document/10373183/keywords#keywords).
 In this work,
 
 * We build BearingPGA-Net, a lightweight neural network tailored for bearing fault diagnosis. This network is characterized by a single convolutional layer and is enhanced using decoupled knowledge distillation.
