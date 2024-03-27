@@ -375,17 +375,17 @@ if __name__ == '__main__':
     # Hyperparameters need to fine-tune
     config.batch_size = 64  # input batch size for training (default: 64)
     config.epochs = 75  # number of epochs to train (default: 10)
-    config.tlr = 0.5  # teacher learning rate (default: 0.5)
+    config.tlr = 0.1  # teacher learning rate (default: 0.5)
     config.slr = 0.1  # student learning rate (default: 0.5)
 
     config.alpha = 0.2 # scale factor alpha hard loss and dkd loss
     #DKD
-    config.beta = 4 #TCKD  beta
-    config.gammar = 0.2  #NCKD  gammar
+    config.beta = 5 #TCKD  beta
+    config.gammar = 1  #NCKD  gammar
     config.warmup = 5
 
     #KD temperature
-    config.temperature = 3
+    config.temperature = 2.5
 
     # noisy condition
     config.add_noise = True
